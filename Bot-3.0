@@ -7,10 +7,10 @@ from langchain.chains.question_answering import load_qa_chain
 from langchain.prompts import PromptTemplate
 import google.generativeai as genai
 
-# ✅ Your Gemini API Key
-GOOGLE_API_KEY = "AIzaSyA8-Q1tO01v3RN3OW_VXezySZ9EVxIN4Ho"
+//Your Gemini API Key
+GOOGLE_API_KEY = "AIzaSyA8-Q1tO01v3RN3OW_##############"
 
-# ✅ Configure Gemini
+//Configure Gemini
 genai.configure(api_key=GOOGLE_API_KEY)
 
 

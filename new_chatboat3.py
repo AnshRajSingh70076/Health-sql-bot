@@ -9,7 +9,7 @@ import os
 from rapidfuzz import process, fuzz
 
 # === API Key for Gemini ===
-genai.configure(api_key="AIzaSyA8-Q1tO01v3RN3OW_VXezksjjsEVxIN4Ho")  # Replace with your actual Gemini API key
+genai.configure(api_key="AIzaSyA8-Q1tO01v3RN3OW_#######")  # Replace with your actual Gemini API key
 model = genai.GenerativeModel("gemini-2.0-flash")
 
 # === Path to your SQLite DB ===
